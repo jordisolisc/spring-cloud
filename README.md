@@ -6,4 +6,7 @@
   - Clients are running on http://localhost:8001 http://localhost:8002 http://localhost:8003
  
  * Integrate Feign Client using Spring Boot
+ 
+ * Integrate **Netflix Hystrix Circuit Breaker** using Spring Boot
+  - Hystrix Dashboard: http://localhost:8002/hystrix
 

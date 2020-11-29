@@ -3,7 +3,7 @@ package com.njesoft.eurekaclient;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@FeignClient(value = "eureka-client-2", url = "http://localhost:8002")
+@FeignClient(value = "${feign.name}", url = "${feign.url}", fallback = MyFeignClientFallbackImpl.class)
 public interface MyFeignClient {
 
     @GetMapping
