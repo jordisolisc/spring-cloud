@@ -9,4 +9,7 @@
  
  * Integrate **Netflix Hystrix Circuit Breaker** using Spring Boot
   - Hystrix Dashboard: http://localhost:8002/hystrix
+  
+ * Integrate Netflix Zuul using Spring Boot 
+
 

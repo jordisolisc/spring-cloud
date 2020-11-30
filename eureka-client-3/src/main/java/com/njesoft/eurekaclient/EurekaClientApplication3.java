@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class EurekaClientApplication3 {
 
-    @RequestMapping("/")
+    @RequestMapping("/eureka-client-3")
     public String home() throws JSONException {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("message", "Hello world 3");

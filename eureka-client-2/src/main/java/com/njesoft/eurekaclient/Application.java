@@ -23,7 +23,7 @@ public class Application {
 	@Autowired
 	private MyFeignClient myFeignClient;
 
-	@RequestMapping("/")
+	@RequestMapping("/eureka-client-2")
 	public String home() throws JSONException {
 		JSONObject jsonObject = new JSONObject();
 		jsonObject.put("message", "Hello World 2");
